@@ -1,0 +1,8 @@
+<%= stylesheet_link_tag "/css/base16-default-light.css" %>
+
+<%= content_tag :div,
+	nil,
+  id: 'admin',
+  data: @questions.to_json %>
+
+<%= javascript_pack_tag 'admin' %>
